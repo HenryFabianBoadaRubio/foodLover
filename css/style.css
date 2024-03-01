@@ -378,3 +378,46 @@ h6{
     font-size: 22px;
 
 }
+
+
+.container7{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    border: 2px solid red;
+    position: relative;
+    
+}
+.im7{
+    display: flex;
+    width: 90%;
+    height: 90%;
+    position: absolute;
+}
+/* .cajita{
+   max-width:100%;
+   position: absolute;  
+    height: 80%;
+    border: 2px solid rgb(229, 255, 0);
+} */
+
+.cajaf{
+    display: flex;
+    width: 100%;
+    height: 40%;
+    border: 2px solid red;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.finenla{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    border: 2px solid red;
+}
+.menuu{
+    text-decoration: none;
+}
