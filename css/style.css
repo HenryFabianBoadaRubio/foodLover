@@ -381,18 +381,39 @@ h6{
 
 
 .container7{
+    margin-top: 70px;
     display: flex;
     width: 100%;
-    height: 100vh;
-    border: 2px solid red;
-    position: relative;
+    height: 70%;
+   background-color: #e58f00;
     
 }
 .im7{
     display: flex;
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
     position: absolute;
+    margin-top: -70px;
+
+}
+.tex7{
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    width: 40%;
+    color: white;
+    font-size: 23px;
+    right: 12%;
+    font-family: roboflaquito;
+    position: absolute;
+    
+}
+.titu{
+    font-size: 38px;
+    color: white;
+    font-family: robotof;
+    margin-bottom: 30px;
+
 }
 /* .cajita{
    max-width:100%;
@@ -402,10 +423,11 @@ h6{
 } */
 
 .cajaf{
+    margin-top: 60px;
     display: flex;
     width: 100%;
-    height: 40%;
-    border: 2px solid red;
+    height: 55%;
+    
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -416,8 +438,20 @@ h6{
     display: flex;
     width: 60%;
     justify-content: space-between;
-    border: 2px solid red;
+  
 }
 .menuu{
+    margin-top: 35px;
     text-decoration: none;
+    color: white;
+    font-family: roboflaquito;
+}
+
+.redes{
+    display: flex;
+    width: 15%;
+    margin-top: 25px;
+    background-image: white;
+    justify-content: center;
+    gap: 10px; 
 }
