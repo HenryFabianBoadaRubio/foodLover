@@ -292,18 +292,17 @@ body{
     /* margin-top: 200px; */
     display: flex;
     width: 100%;
-    height: 100vh;
-    border: 2px solid red;
-   
+    height: 140vh;
+    background-image: url(/storage/img/placeYourImageHereOur0.png);
+    background-size: cover;
     
-
 }
 
 .box5{
     display: flex;
     flex-direction: column;
     width: 45%;
-    height: 68%;
+    height: 53%;
     border: 5px solid #e58f00;
     background:#17171e;
     margin: auto;
@@ -318,6 +317,7 @@ body{
 .box5 h4{
     font-size: 35px;
     font-family: robotof;
-    margin-bottom: 22px;
+    margin-bottom: 25px;
 
 }
+
