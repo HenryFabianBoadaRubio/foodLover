@@ -2,11 +2,11 @@
 @import url(variables.css);
 @font-face {
     font-family: robotof;
-    src: url(/storage/fuentes/Roboto_Slab/RobotoSlab-Black.ttf);
+    src: url(../storage/fuentes/Roboto_Slab/RobotoSlab-Black.ttf);
 }
 @font-face {
     font-family: roboflaquito;
-    src: url(/storage/fuentes/Roboto_Slab/RobotoSlab-Bold.ttf);}
+    src: url(../storage/fuentes/Roboto_Slab/RobotoSlab-Bold.ttf);}
 *{
     padding: 0;
     margin: 0;
@@ -33,7 +33,7 @@ body{
 
 .cabeza{
    
-    background-image: url('/storage/img/placeYourImageHere0.png'); /* Reemplaza 'ruta/de/la/imagen.jpg' con la ruta de tu imagen */
+    background-image: url('../storage/img/placeYourImageHere0.png'); /* Reemplaza 'ruta/de/la/imagen.jpg' con la ruta de tu imagen */
     background-size: cover; /* Para cubrir todo el fondo */
     background-repeat: no-repeat; /* Para evitar que se repita la imagen */
     background-attachment: fixed; /* Para que la imagen no se desplace al hacer scroll */
@@ -181,7 +181,7 @@ body{
     
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url("/storage/img/placeYourImageHereFood.png");
+    background-image: url("../storage/img/placeYourImageHereFood.png");
 }
 
 .tort1{
@@ -293,7 +293,7 @@ body{
     display: flex;
     width: 100%;
     height: 140vh;
-    background-image: url(/storage/img/placeYourImageHereOur0.png);
+    background-image: url(../storage/img/placeYourImageHereOur0.png);
     background-size: cover;
     
 }
